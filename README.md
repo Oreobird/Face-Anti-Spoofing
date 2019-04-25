@@ -14,11 +14,10 @@ A simple face anti-spoofing based on CNN trained with HSV + YCrCb color feature.
 ### Usage:<br>
 * Data prepare:<br>
 		download train data and model file from:<br>
-		[](https://pan.baidu.com/s/1izOKKs8-CRy6Ykfa13r0Ew)<br>
+		[https://pan.baidu.com/s/1izOKKs8-CRy6Ykfa13r0Ew](https://pan.baidu.com/s/1izOKKs8-CRy6Ykfa13r0Ew)<br>
 		code: u99k<br>
 * Train model:<br>
 		python data/NUAA/gen_label.py
 		python main.py --train=True
-
 * Test online via camera:<br>
 		python main.py --online=True
