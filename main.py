@@ -134,10 +134,10 @@ def main(unused_args):
                         cv2.putText(frame, text, (start_x, start_y), cv2.FONT_HERSHEY_COMPLEX, 0.7, (0, 255, 0), 1)
                         frames = []
                 
-                    cv2.imshow("frame", frame)
-                    # cv2.waitKey(0)
-                    if cv2.waitKey(1) & 0xFF == ord('q'):
-                        break
+                cv2.imshow("frame", frame)
+                # cv2.waitKey(0)
+                if cv2.waitKey(1) & 0xFF == ord('q'):
+                    break
 
 
 def parse_args():
