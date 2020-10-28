@@ -21,3 +21,8 @@ A simple face anti-spoofing based on CNN trained with HSV + YCrCb color feature.
 		python main.py --train=True
 * Test online via camera:<br>
 		python main.py --online=True
+		
+Detailed design doc, please reference to:
+
+![image](https://github.com/Oreobird/effect3d/blob/master/wechat.jpg)
+
